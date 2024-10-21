@@ -1,0 +1,407 @@
+
+
+
+/*---------------------------------------------------------------*/
+.container {
+	display: flex;
+	flex-direction: column;
+	height:  ;
+}
+ 
+.header {
+  background-color: #f2f8f2;
+  /*#f2f8f2*/
+  flex-basis: 0px;
+
+}
+
+.main {
+  background-color: #fbfaf8;
+  flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: 550px;
+} 
+
+.aside {
+  background-color:#fbfaf8;
+  flex-basis: 200px;
+}
+
+.footer {
+  background-color: #fbfaf8;
+  flex-basis: 70px;  
+}
+
+/*---------------------------------------------------------------*/
+
+/*Poniendo el contenido*/
+
+
+
+/*---------------------------------------------------------*/
+
+/*El main, no confundir*/
+
+
+.main__contenido { /*Es todo el texto*/
+	padding: 20px;	
+}
+
+.main__contenido-caja-h2 h2 { /*EL TITULO*/
+	font-size: 37px;
+	color: #000000;
+	font-family: "Archivo Black", sans-serif;
+	word-wrap: break-word;
+	word-break: break-word;
+}
+
+
+.main__contenido-italica{
+	margin: 20px 0px 20px 0px;
+}
+
+.main_contenido-img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.main__contenido-italica p { /*lAS LETRAS PEQUEÑAS*/
+	font-style: italic;
+	font-size: 17px;	
+	font-family: "Abel", sans-serif;
+	color: #222;
+}
+
+.main__contenido-h3 h3 { /*lOS H3, OSEA LOS SUSBTITULOS*/
+	font-size: 30px;
+	color: #e3332e;
+	font-family: "Archivo Black", sans-serif;
+	margin: 5px 0px 5px 0px;
+}
+
+.main__contenido-h3-p p{   /*CONTENIDO DEL TEXTO*/
+	color:#0e0d0d ;
+	font-family: "Rethink Sans", sans-serif;
+}
+
+.span__h3 {	
+	display: block;
+	margin: 12px 0px 12px 0px;
+}
+
+
+.form {
+	text-align: center;
+	background-color: #f7f7f7;
+}
+
+/*---------------------------------------------------------*/
+
+fieldset {
+	border: none;
+	margin: -3px 0px 0px 0px;
+}
+
+.form__fieldset-option label{
+		font-size: 25px;
+		font-weight: 1000;
+		color: #333;
+}
+
+.form__fieldset-option {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Arial', sans-serif;
+	font-size: 15px	
+}
+
+.form__select {
+	min-width: 50%;
+	align-self: center;
+	margin: 10px 0px 10px 0px;	
+	border: 1px solid #ccc;
+}
+
+.form__fieldset-comentario textarea {
+	resize: none;
+	border: none;
+	border-bottom: 2px solid black;
+	background: transparent ;
+	outline: none;
+	width: 250px;
+	height: 80px;
+	font-size: 13px;
+	font-family: 'Arial', sans-serif;
+}
+
+.form__fieldset-comentario textarea:focus {
+	background: linear-gradient(to bottom, transparent, #777);
+	color: black;
+	border-bottom: 4px solid #222;
+}
+
+.form__fieldset-comentario textarea::placeholder {
+	color: #111;
+	font-size: 13px;
+}
+
+.form__section-boton {
+	background-color: #63d3e3;
+	color: #000000;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3;
+}
+
+.form__section-boton:hover {
+	background-color: #0056b3;
+}
+
+.form__agradecimiento {
+	text-align: center;
+}
+
+.form__agradecimiento legend {
+	font-size: 35px;
+	margin: 10px 0px 0px 0px;
+	font-family: 'Arial', sans-serif;
+	color: #333;
+	font-weight: 1000;
+
+}
+
+/*---------------------------------------------------------*/
+/*La parte del aside*/
+
+.form {
+	margin: 40px 0px 0px 0px;
+}
+
+.aside__container-titulo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.aside_todo {
+	margin: 20px 0px 0px 0px;
+}
+
+.aside__container-titulo p {
+	 font-size: 15px;
+	 font-style: italic ;
+}
+
+.aside__container-img {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.aside__container-img {
+	
+	margin: 0px 10px 0px 10px;
+	align-items: center;
+
+}
+
+.aside__container-img-1 {
+	flex-basis: 40px;
+}
+
+.aside__container-img-2 {
+	flex-basis: 47px;
+	margin: 0px 15px 0px 15px;
+}
+
+.aside__container-img-3 {
+	flex-basis: 47px;
+}
+
+.aside__consultas h3 {
+	font-size: 25px;
+	font-family:'Arial', sans-serif;
+	color:#222;
+}
+
+.aside__links {
+	display:flex;
+	flex-direction: column;
+	align-items: ;
+}
+
+.aside__links-img img {
+	width: 60px;
+	display: inline-block;
+	margin: 10px 10px 10px 10px;
+}
+
+.aside__links-a {
+	vertical-align: middle;
+}
+
+.aside__links-img a {
+	text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #333;
+
+}
+
+.aside__links-img a:hover {
+	color: blue;
+}
+
+
+
+/*------------------------------------------------------------*/
+
+/*La parte del footer*/
+
+.footer {
+	background-color: black;
+	
+}
+
+.footer__todo {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer__todo-joketel {
+	margin: 3px 0px 1px 0px;
+}
+
+.diferente {
+	margin: 0px 0px 7px 0px;
+}
+
+.footer div p {
+	color: white;
+	justify-content: center;
+	text-align: center;
+	font-size: 17px;
+}
+
+
+
+
+@media screen and (min-width: 900px){
+	.container {
+		display: grid;
+		grid-template-columns: repeat(16, 1fr); /*Lo que busco aca es crear solamente las columnas y filas*/
+		grid-template-rows: 350px 1fr 1fr 1fr 1fr 80px;
+		
+	}
+
+	.header {
+		grid-column: 1/ 17;
+	}
+
+	.main  {
+		grid-row: 2/ 6;
+		grid-column: 2/ 11;
+	}
+
+	.aside {
+		grid-row: 2 / 6;
+		grid-column: 11/ 16;
+	}
+
+	.footer {
+		grid-row: 6 / 7;
+		grid-column: 1 / 17;
+	}
+
+	.left-side {
+		grid-column: 1/ 2;
+		grid-row: 2/6;
+		background-color: #dddfea;
+	}
+
+	.rigth-side {
+		grid-column: 16/ 17;
+		grid-row: 2/6;
+		background-color: #dddfea;
+	}
+
+	.header__inicio {
+	background-color: ;
+	display: flex;
+	flex-direction: row ;
+	align-items: center;
+	justify-content: center;
+	gap: 200px;
+}
+
+.header__inicio-img {
+	 
+}
+
+.header__inicio-img img {
+	
+
+}
+
+.header__inicio-links {
+    
+}
+
+
+.header__inicio-links a {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0px 20px 0px 20px;
+  color: black;
+  font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+}
+
+.header__inicio-links a:hover {
+  color: #ff6700;
+  border-bottom: 4px solid #ff6700;
+}
+
+.header__final {
+	background-color: darkorange;
+	display: flex;
+	flex-direction: row;
+	gap: 100px;
+	justify-content: center;
+	
+}
+
+.header__final-img {
+  width: 400px ;
+	height: 400px;
+	margin: 20px 0px 0px 0px;
+	
+}
+
+.header__final-h1 {
+	width: 500px;
+}
+
+.header__final-h1 h1 {
+	color: white;
+	font-family: "Lilita One", sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+}
+}
+
+
+
+
+
+
+
+
+

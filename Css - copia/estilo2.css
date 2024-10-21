@@ -1,0 +1,86 @@
+
+
+body {
+	background-color: #484648;
+}
+
+
+.Principal-1 {
+	background-color: #282728 ;
+	padding: 10px 10px 10px 10px;
+	margin: 0px;
+
+}
+
+.Principal-1 h1 {
+	position: relative;
+	top: 0em ;
+	left: 10em;  
+	font-family: "Archivo Black", sans-serif;
+	margin-bottom: -0.2em;
+	color: white;
+		
+}
+
+.Principal-1 h1 span {
+	color: #da7f1e;
+}
+
+
+.Principal-1 h3 {
+	position: relative;
+	top: 0em ;
+	left: 26.7em;
+	font-family: "Roboto", sans-serif;
+	margin-top: -0.5em;
+	color: white;
+	font-size: 12px;
+}
+
+.Principal-1 dt {
+	display: inline-block;
+	position: relative;
+	top: -3.0em ;
+	left: 75em;	
+	color: white;
+}
+
+/*La parte del costado con la imagen*/
+.cuerpo-1 {
+	
+}
+
+.cuerpo-1 img {
+	box-shadow: 15px 15px 15px 15px #322f2c;
+	margin: 80px 20px 200px 450px;
+	width: 400px;
+	height: 500px;
+}
+
+.cuerpo-1 h2 {
+	color: white;
+	position: relative;
+	bottom: 750px;
+	left: 900px;
+	font-size: 50px;
+	font-family: "Shadows Into Light", cursive;
+}
+
+.cuerpo-1 p {
+	position: relative;
+	bottom: 770px;
+	left: 1100px;
+	width: 300px;
+	height: 500px;
+}
+
+/*La parte de abajo*/
+.inicio-detodo {
+
+	color: white;
+}
+
+.inicio-detodo img {
+	width: 150px;
+	height: 200px;
+}
